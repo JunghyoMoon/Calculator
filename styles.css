@@ -16,11 +16,12 @@ section {
 .display {
   height: 100%;
   padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   grid-column: span 3;
   color: white;
   font-size: 50px;
-  vertical-align: middle;
-  text-align: right;
 }
 
 button {
@@ -44,10 +45,10 @@ button.numberBtn {
   background-color: #363439;
 }
 
-button.funcBtn {
-  background-color: #fe8e00;
-}
-
 button#zero {
   grid-column: span 2;
+}
+
+button.funcBtn {
+  background-color: #fe8e00;
 }
